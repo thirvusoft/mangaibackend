@@ -1,0 +1,32 @@
+{
+ "chart_name": "Dealer sales order count",
+ "chart_type": "Report",
+ "creation": "2023-04-20 18:38:36.916107",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{\"from_date\":\"2023-03-20\",\"to_date\":\"2023-04-20\"}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2023-04-20 18:38:36.916107",
+ "modified_by": "Administrator",
+ "module": "oxo",
+ "name": "Dealer sales order count",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Dealer Sales order count",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Line",
+ "use_report_chart": 0,
+ "x_field": "Customer",
+ "y_axis": [
+  {
+   "color": "#29CD42"
+  }
+ ]
+}

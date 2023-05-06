@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-24 12:13:08.350824",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "api",
+  "default_country_code",
+  "section_break_3",
+  "authorization_token",
+  "whatsapp_the_pdf",
+  "section_break_6",
+  "template"
+ ],
+ "fields": [
+  {
+   "fieldname": "api",
+   "fieldtype": "Data",
+   "label": "API"
+  },
+  {
+   "fieldname": "default_country_code",
+   "fieldtype": "Data",
+   "label": "Default Country Code"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "authorization_token",
+   "fieldtype": "Password",
+   "label": "Authorization Token"
+  },
+  {
+   "default": "0",
+   "fieldname": "whatsapp_the_pdf",
+   "fieldtype": "Check",
+   "label": "Whatsapp the PDF"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "template",
+   "fieldtype": "Table",
+   "label": "Template",
+   "options": "TS Whatsapp Template"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-01-24 12:19:36.354686",
+ "modified_by": "Administrator",
+ "module": "oxo",
+ "name": "TS Whatsapp Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
